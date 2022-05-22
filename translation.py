@@ -3,9 +3,9 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 class Translation(object):
 
     START_TEXT = """
-Hello {} , I'am a url to telegram file or media uploader bot with permanent thumbnail support.
+Hey {} , I'am a url to telegram file or media uploader bot with permanent thumbnail support.
 
-Made by @Mo_Tech_YT
+ᴘᴏᴡᴇʀᴅ ʙʏ: [sᴘᴀᴄᴇ4ᴄɪɴᴇᴍᴀs](https://t.me/space4cinemas)
 """
     HELP_TEXT = """
 <b><u>Link to Media or File</u></b>
@@ -23,25 +23,24 @@ Made by @Mo_Tech_YT
 Made by @Mo_Tech_YT
 """
     ABOUT_TEXT = """
-- **Bot :** URL Uploader
-- **Creator :** [Mrk](https://telegram.dog/Mrk_YT)
-- **Channel :** [MoTech](https://telegram.dog/Mo_Tech_YT)
-- **Credits :** `Everyone in this journey`
-- **Source :** [Click here](https://github.com/MRK-YT/MT-URL-Uploader)
-- **Language :** [Python3](https://python.org)
-- **Library :** [Pyrogram v1.2.0](https://pyrogram.org)
-- **Server :** [Heroku](https://heroku.com)
-- **Tutorial :** [Video](https://youtu.be/nRSbkf3memQ)
+- **ʙᴏᴛ      :** URL Uploader
+- **ᴄʀᴇᴀᴛᴏʀ  :**
+- **ᴄʀᴇᴅɪᴛs  :** `Everyone in this journey`
+- **sᴏᴜʀᴄᴇ   :** [Click here](https://github.com/MRK-YT/MT-URL-Uploader)
+- **ʟᴀɴɢᴜᴀɢᴇ :** [Python3](https://python.org)
+- **ʟɪʙʀᴀʀʏ  :** [Pyrogram v1.2.0](https://pyrogram.org)
+- **sᴇʀᴠᴇʀ   :** [Heroku](https://heroku.com)
 """
     START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🗣️𝙶𝚛𝚘𝚞𝚙', url='https://t.me/Mo_tech_group'),
+        InlineKeyboardButton('🔎sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇs🔍', url='https://t.me/space4cinemas')
+        ],[
         InlineKeyboardButton('🤖Bot List', url='https://t.me/Mo_Tech_YT/176'),
         InlineKeyboardButton('👨‍💻Source', url='https://youtu.be/nRSbkf3memQ')
         ],[
-        InlineKeyboardButton('Help', callback_data='help'),
-        InlineKeyboardButton('About', callback_data='about'),
-        InlineKeyboardButton('Close', callback_data='close')
+        InlineKeyboardButton('ʜᴇʟᴘ🤌', callback_data='help'),
+        InlineKeyboardButton('ᴀʙᴏᴜᴛ😎', callback_data='about'),
+        InlineKeyboardButton('ᴄʟᴏsᴇ🚮', callback_data='close')
         ]]
     )
     HELP_BUTTONS = InlineKeyboardMarkup(
@@ -50,9 +49,9 @@ Made by @Mo_Tech_YT
         InlineKeyboardButton('🤖Bot List', url='https://t.me/Mo_Tech_YT/176'),
         InlineKeyboardButton('👨‍💻Source', url='https://youtu.be/nRSbkf3memQ')
         ],[
-        InlineKeyboardButton('Home', callback_data='home'),
-        InlineKeyboardButton('About', callback_data='about'),
-        InlineKeyboardButton('Close', callback_data='close')
+        InlineKeyboardButton('ʙᴀᴄᴋ↩️', callback_data='home'),
+        InlineKeyboardButton('ᴀʙᴏᴜᴛ😎', callback_data='about'),
+        InlineKeyboardButton('ᴄʟᴏsᴇ🚮', callback_data='close')
         ]]
     )
     ABOUT_BUTTONS = InlineKeyboardMarkup(
@@ -61,9 +60,9 @@ Made by @Mo_Tech_YT
         InlineKeyboardButton('🤖Bot List', url='https://t.me/Mo_Tech_YT/176'),
         InlineKeyboardButton('👨‍💻Source', url='https://youtu.be/nRSbkf3memQ')
         ],[
-        InlineKeyboardButton('Home', callback_data='home'),
-        InlineKeyboardButton('Help', callback_data='help'),
-        InlineKeyboardButton('Close', callback_data='close')
+        InlineKeyboardButton('ʙᴀᴄᴋ↩️', callback_data='home'),
+        InlineKeyboardButton('ʜᴇʟᴘ🤌', callback_data='help'),
+        InlineKeyboardButton('ᴄʟᴏsᴇ🚮', callback_data='close')
         ]]
     )
     FORMAT_SELECTION = """<b>Select the desired format:</b> <a href='{}'>file size might be approximate</a>
