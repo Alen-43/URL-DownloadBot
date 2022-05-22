@@ -9,7 +9,7 @@
   ],
   "success_url": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",
   "website": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",
-  "repository": "https://github.com/MRK-YT/MT-URL-Uploader",
+  "repository": "https://github.com/Alen-43/URL-DownloadBot",
   "env": {
     "WEBHOOK": {
       "description": "Leave this as it is! ANYTHING",
