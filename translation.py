@@ -31,8 +31,8 @@ move it to PHOTOS/DCIM/CAMERA.
     ABOUT_TEXT = """
 - ʙᴏᴛ      :**URL Uploader**
 - ᴄʀᴇᴀᴛᴏʀ  :**ᴀʟᴇɴ**
-- ᴄʀᴇᴅɪᴛs  :**`Everyone in this journey`**
-- sᴏᴜʀᴄᴇ   :**[Click here](https://github.com/MRK-YT/MT-URL-Uploader)**
+- ᴄʀᴇᴅɪᴛs  :ᴇᴠᴇʀʏᴏɴᴇ ɪɴ ᴛʜɪs ᴊᴏᴜʀɴᴇʏ
+- sᴏᴜʀᴄᴇ   :**[Click here](https://t.me/space4cinemas)**
 - ʟᴀɴɢᴜᴀɢᴇ :**[Python3](https://python.org)**
 - ʟɪʙʀᴀʀʏ  :**[Pyrogram v1.2.0](https://pyrogram.org)**
 - sᴇʀᴠᴇʀ   :**[Heroku](https://heroku.com)**
@@ -41,8 +41,8 @@ move it to PHOTOS/DCIM/CAMERA.
         [[
         InlineKeyboardButton('🔎sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇs🔍', url='https://t.me/space4cinemas')
         ],[
-        InlineKeyboardButton('🤖Bot List', url='unavailable'),
-        InlineKeyboardButton('👨‍💻Source', url='unavailable')
+        InlineKeyboardButton('🤖Bot List', url='https://t.me/space4cinemas'),
+        InlineKeyboardButton('👨‍💻Source', url='https://t.me/space4cinemas')
         ],[
         InlineKeyboardButton('ʜᴇʟᴘ🤌', callback_data='help'),
         InlineKeyboardButton('ᴀʙᴏᴜᴛ😎', callback_data='about'),
@@ -53,8 +53,8 @@ move it to PHOTOS/DCIM/CAMERA.
         [[
         InlineKeyboardButton('🔎sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇs🔍', url='https://t.me/space4cinemas')
         ],[
-        InlineKeyboardButton('🤖Bot List', url='unavailable'),
-        InlineKeyboardButton('👨‍💻Source', url='unavailable')
+        InlineKeyboardButton('🤖Bot List', url='https://t.me/space4cinemas'),
+        InlineKeyboardButton('👨‍💻Source', url='https://t.me/space4cinemas')
         ],[
         InlineKeyboardButton('ʙᴀᴄᴋ↩️', callback_data='home'),
         InlineKeyboardButton('ᴀʙᴏᴜᴛ😎', callback_data='about'),
@@ -65,8 +65,8 @@ move it to PHOTOS/DCIM/CAMERA.
         [[
         InlineKeyboardButton('🔎sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇs🔍', url='https://t.me/space4cinemas')
         ],[
-        InlineKeyboardButton('🤖Bot List', url='unavailable'),
-        InlineKeyboardButton('👨‍💻Source', url='unavailable')
+        InlineKeyboardButton('🤖Bot List', url='https://t.me/space4cinemas'),
+        InlineKeyboardButton('👨‍💻Source', url='https://t.me/space4cinemas')
         ],[
         InlineKeyboardButton('ʙᴀᴄᴋ↩️', callback_data='home'),
         InlineKeyboardButton('ʜᴇʟᴘ🤌', callback_data='help'),
