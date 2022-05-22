@@ -4,6 +4,7 @@ class Translation(object):
 
     START_TEXT = """
 Hey {} , I'am a url to telegram file or media uploader bot with permanent thumbnail support.
+If you don't know how save downloaded media to gallery, Go to help menu.
 
 ᴘᴏᴡᴇʀᴅ ʙʏ: [sᴘᴀᴄᴇ4ᴄɪɴᴇᴍᴀs](https://t.me/space4cinemas)
 """
@@ -20,23 +21,28 @@ Hey {} , I'am a url to telegram file or media uploader bot with permanent thumbn
 <b><u>Show Thumbnail</u></b>
 ➠ Send /showthumb to view custom thumbnail.
 
-Made by @Mo_Tech_YT
+**How save Telegram media to gallery**
+
+First you download it then go to 'DEVICE >FILES >TELEGRAM >VIDEOS/PHOTOS/DOCUMENTS >select your file' then
+move it to PHOTOS/DCIM/CAMERA.
+
+ᴘᴏᴡᴇʀᴅ ʙʏ:[sᴘᴀᴄᴇ4ᴄɪɴᴇᴍᴀs](https://t.me/space4cinemas)
 """
     ABOUT_TEXT = """
-- **ʙᴏᴛ      :** URL Uploader
-- **ᴄʀᴇᴀᴛᴏʀ  :**
-- **ᴄʀᴇᴅɪᴛs  :** `Everyone in this journey`
-- **sᴏᴜʀᴄᴇ   :** [Click here](https://github.com/MRK-YT/MT-URL-Uploader)
-- **ʟᴀɴɢᴜᴀɢᴇ :** [Python3](https://python.org)
-- **ʟɪʙʀᴀʀʏ  :** [Pyrogram v1.2.0](https://pyrogram.org)
-- **sᴇʀᴠᴇʀ   :** [Heroku](https://heroku.com)
+- ʙᴏᴛ      :**URL Uploader**
+- ᴄʀᴇᴀᴛᴏʀ  :**ᴀʟᴇɴ**
+- ᴄʀᴇᴅɪᴛs  :**`Everyone in this journey`**
+- sᴏᴜʀᴄᴇ   :**[Click here](https://github.com/MRK-YT/MT-URL-Uploader)**
+- ʟᴀɴɢᴜᴀɢᴇ :**[Python3](https://python.org)**
+- ʟɪʙʀᴀʀʏ  :**[Pyrogram v1.2.0](https://pyrogram.org)**
+- sᴇʀᴠᴇʀ   :**[Heroku](https://heroku.com)**
 """
     START_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('🔎sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇs🔍', url='https://t.me/space4cinemas')
         ],[
-        InlineKeyboardButton('🤖Bot List', url='https://t.me/Mo_Tech_YT/176'),
-        InlineKeyboardButton('👨‍💻Source', url='https://youtu.be/nRSbkf3memQ')
+        InlineKeyboardButton('🤖Bot List', url='unavailable'),
+        InlineKeyboardButton('👨‍💻Source', url='unavailable')
         ],[
         InlineKeyboardButton('ʜᴇʟᴘ🤌', callback_data='help'),
         InlineKeyboardButton('ᴀʙᴏᴜᴛ😎', callback_data='about'),
@@ -45,9 +51,10 @@ Made by @Mo_Tech_YT
     )
     HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🗣️𝙶𝚛𝚘𝚞𝚙', url='https://t.me/Mo_tech_group'),
-        InlineKeyboardButton('🤖Bot List', url='https://t.me/Mo_Tech_YT/176'),
-        InlineKeyboardButton('👨‍💻Source', url='https://youtu.be/nRSbkf3memQ')
+        InlineKeyboardButton('🔎sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇs🔍', url='https://t.me/space4cinemas')
+        ],[
+        InlineKeyboardButton('🤖Bot List', url='unavailable'),
+        InlineKeyboardButton('👨‍💻Source', url='unavailable')
         ],[
         InlineKeyboardButton('ʙᴀᴄᴋ↩️', callback_data='home'),
         InlineKeyboardButton('ᴀʙᴏᴜᴛ😎', callback_data='about'),
@@ -56,9 +63,10 @@ Made by @Mo_Tech_YT
     )
     ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🗣️𝙶𝚛𝚘𝚞𝚙', url='https://t.me/Mo_tech_group'),
-        InlineKeyboardButton('🤖Bot List', url='https://t.me/Mo_Tech_YT/176'),
-        InlineKeyboardButton('👨‍💻Source', url='https://youtu.be/nRSbkf3memQ')
+        InlineKeyboardButton('🔎sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇs🔍', url='https://t.me/space4cinemas')
+        ],[
+        InlineKeyboardButton('🤖Bot List', url='unavailable'),
+        InlineKeyboardButton('👨‍💻Source', url='unavailable')
         ],[
         InlineKeyboardButton('ʙᴀᴄᴋ↩️', callback_data='home'),
         InlineKeyboardButton('ʜᴇʟᴘ🤌', callback_data='help'),
